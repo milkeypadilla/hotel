@@ -3,10 +3,10 @@
 session_start();
 date_default_timezone_set('Asia/Manila');
 
-$servername = "localhost";
-$username = "root";
-$password = "";
-$database = "hotel_reservationn";
+$servername = "sql208.infinityfree.com";
+$username = "if0_43169751";
+$password = "0anQ4KCoXFRc6AK";
+$database = "if0_43169751_hotel";
 
 $conn = mysqli_connect($servername, $username, $password, $database);
 
